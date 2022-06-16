@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    height: 700px;
+    margin: 100px auto;
+    box-shadow: 1px 1px 30px 5px rgb(152, 149, 134);
+}
+
+.container > div { /*access all direct child (all div) of parent container*/
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.left-container {
+    background-color: rgb(7, 160, 180);
+}
+
+.right-container {
+    background-color: red;
+}
