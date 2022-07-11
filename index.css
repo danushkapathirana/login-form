@@ -60,3 +60,31 @@
     font-weight: bold;
     font-size: 14px;
 }
+
+#btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(7, 160, 180);
+    border: 1px solid rgb(7, 160, 180);
+}
+
+.error-msg {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+
+form .form-control.error .error-msg {
+    color: red;
+}
+
+form .form-control.error > input {
+    border-bottom: 1px solid red;
+}
+
+form .form-control.success .error-msg {
+    color: black;
+}
+
+form .form-control.success > input {
+    border-bottom: 1px solid rgb(7, 160, 180);
+}
